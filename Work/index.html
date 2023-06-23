@@ -1,0 +1,1842 @@
+<!--Creating webpage of the given format-->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitnessPoint</title>
+</head><link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+   /*CSS for the body*/
+body{
+    background-color: #f5f5f5;
+    font-family: 'Baloo 2', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} -->
+    
+
+
+<!doctype html>
+<html lang="en"><img src="" alt="">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Los Angeles Mountains">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    
+    <!--- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,900&family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Css-->
+    <link rel="shortcut icon" href="./assets/Images/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles.css">
+    
+    
+
+    <title>Los Angeles Mountains</title>
+  </head>
+  <style>
+    :root {
+      --white : #fefefe;
+      --gray-numbers : rgb(110,126,153);
+      --text-number : #414F6B;
+      --blue-mountains-hero : #2E4653;
+      --gray-los-angeles : #3E4C45;
+      --slider : #364259;
+      --Bebas: 'Bebas Neue', cursive;
+      --Lato: 'Lato', sans-serif;
+      --Oswald: 'Oswald', sans-serif;
+      }
+  
+  * {
+      box-sizing: border-box;
+      padding: 0px;
+      margin: 0px;
+  }
+  
+  html {
+      scroll-behavior: smooth;
+      font-family: var(--Lato);
+  }
+  
+  
+  /* Hero */
+
+    
+  
+    #Hero div li {
+        list-style-type: none;
+        display: inline-block;
+        text-align: end;
+        margin-left: 20px;
+    }
+  
+    #Hero div li a {
+        list-style-type: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: var(--white);
+        font-family: var(--Lato);
+        font-weight: 700;
+        font-style: italic;
+        font-size: 0.78rem;
+        padding-bottom: 2px;
+        border-bottom: solid 2px white ;
+    }
+  
+    #Hero div li a:hover {
+     border-bottom: 0px;
+     color: var(--blue-mountains-hero);
+     background-color: rgba(256, 256, 256, 0.12);
+     padding: 5px;
+     border-radius: 4px;
+     transition: all 0.4s; 
+    }
+  
+  
+     
+  /* Scroll to Top Button */
+  
+   .gotopbtn .icon-up {
+      color: var(--white);
+      height: 43px;
+      width: 29px;
+      text-align: center;
+      align-items: center;
+      padding-bottom: 4px;
+       }
+  
+    
+  
+    .gotopbtn {
+      position: fixed;
+      width: 50px;
+      height: 50px;
+      background-color: var(--blue-mountains-hero);
+      bottom: 10px;
+      right: 10px;
+      border-radius: 25px;
+      z-index: 8;
+      text-decoration: none;
+      text-align: center;
+      line-height: 50px;
+      color: white;
+      font-size: 22px;
+    }
+  
+  .gotopbtn:hover {
+      background-color: var(--white);
+      transition: all 0.3s ;
+      color: var(--white);
+  }
+  
+  .gotopbtn .icon-up:hover {
+      color: var(--blue-mountains-hero);
+      transition: 0.3s;
+  }
+  
+
+  
+    #nav-sticky {
+     background-color:  rgba(256, 256, 256, 0.75);
+      box-shadow: var(--white);
+    }
+  
+    /*.left{
+        display: inline-block;
+        
+        position: absolute;
+        left: 60px;
+        top: 20;
+    }
+    .left img{
+        width: 150px;
+        height: 100px;
+        /*border: 2px solid grey;*/
+        
+        
+      /*<!-- }
+      .left div{
+          line-height: 19px;
+          font-size: 20px;
+          font-weight: bold;
+          text-align: center;
+      }
+      .mid{
+          display: block; 
+          width: 36%;
+          margin: 20px auto; -->
+         /* border: 2px solid green;*/
+      /*<!-- }
+      .right{
+          position: absolute;
+          right: 34px;
+          top: 20px;
+          display: inline-block;
+          
+      }
+      .navbar{
+          display: inline-block;
+      }
+      .navbar li{
+          display: inline-block;
+          padding: 25px 18px;
+          
+      } -->
+      .navbar li a{
+          text-decoration: none;
+          color: white;
+          font-size: 17px;
+      }
+      .navbar li a:hover, .navbar li a.active{
+          text-decoration: underline;
+          color: grey;
+          font-size: 17px;
+      }
+      .btn{
+          font-family: 'Baloo 2', cursive;
+          padding: 10px 20px;
+          background-color: transparent;
+          color: white;
+          font-size: 17px;
+          font-weight: bold;
+          cursor: pointer;
+          border: 2px solid grey;
+          border-radius: 10px;
+      }  
+      .btn:hover{
+          background-color: grey;
+          color: white;
+          border: 2px solid white;
+      } 
+      <!-- .container{
+          border: 2px solid white;
+          border-radius: 15px;
+          margin: 2px 2px;
+          padding: 4px 4px;
+          position: absolute;
+          width: 30%;
+          top: 60%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          color: gold;
+      }  
+  /* Nav Sticky  */
+  /* Nav Sticky  */
+    
+  
+    #nav-sticky div li {
+      list-style-type: none;
+      display: inline-block;
+      text-align: end;
+      margin-left: 20px;
+  }
+  
+  #nav-sticky div ul li a {
+      list-style-type: none;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: var(--blue-mountains-hero);
+      font-family: var(--Lato);
+      font-weight: 700;
+      font-style: italic;
+      font-size: 0.78rem;
+      padding-bottom: 2px;
+      border-bottom: solid 2px var(--blue-mountains-hero) ;
+      transition: all ease-in-out 0.4s;
+  }
+  
+  #nav-sticky div ul li a:hover {
+      border-bottom: 0px solid transparent;
+      padding: 5px;
+      border-radius: 4px;
+      
+  }
+  
+  /* Histroy */
+  
+  
+
+  
+  #history div h3 .after  {
+      font-family: var(--Oswald);
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 2rem;
+      color: var(--text-number);
+      padding-left: 126px;
+  }
+  
+  #history div h3 .before {
+      font-family: var(--Oswald);
+      font-weight: bold;
+      position: absolute;
+      margin-top: -77px;
+      text-transform: uppercase;
+      font-size: 8rem;
+      color: var(--gray-numbers);
+  }
+  
+  #history div p {
+      margin-top: 20px;
+      text-align: start;
+      padding-bottom: 200px;
+  }
+  
+  @media (min-width : 990px ){
+     #history div p {
+      padding-right: 68px;  
+      padding-left: 68px;
+     }
+  }
+  
+  
+  /* Slides */
+   
+  .slide-container {
+          background-color: rgba(65, 79, 107,1);
+          margin-top: -188px;
+          z-index: 1;
+          padding-bottom: 50px;
+  } 
+  
+  
+  
+  .img-car {
+      
+      width:  195px;
+  }
+  
+  .carousel-indicators button {
+      height: 7px !important;
+      width: 7px !important;
+      border-top: 0 solid !important;
+      border-bottom: 0 solid !important; 
+      border-radius: 8px !important;
+  }
+  
+  /* Climb Section */
+  
+  #climb {
+  padding : 30px;
+  }
+  
+  #climb div h3 .after  {
+      font-family: var(--Oswald);
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 2rem;
+      color: var(--text-number);
+      padding-left: 143px;
+  }
+  
+  #climb div h3 {
+      padding-top: 40px;
+      margin-left: -10px;
+  }
+  #climb div h3 .before {
+      font-family: var(--Oswald);
+      font-weight: bold;
+      position: absolute;
+      margin-top: -77px;
+      text-transform: uppercase;
+      font-size: 8rem;
+      color: var(--gray-numbers);
+  }
+  
+  #climb div p {
+      margin-top: 25px;
+      text-align: start;
+      padding-bottom: 20px;
+      
+  }
+  
+  @media (min-width : 775px ) {
+      .slide-container {
+          background-color: rgba(65, 79, 107, 1);
+      }
+  }
+  
+  @media (min-width : 775px ) {
+      #climb div p {
+          text-align: start;
+          margin-left: -9vw;
+          padding-left: 0px;
+      }
+  
+      #climb div h3 {
+          padding-top: 70px;
+      }
+  }
+  
+  @media (min-width : 1205px ) {
+      .slide-container {
+          background-color: rgba(65, 79, 107,0.7);
+      }
+  
+      #climb div p {
+          text-align: start;
+          margin-left: -20vw;
+          padding-left: 0px;
+      }
+  
+      #climb div h3 {
+          padding-top: 70px;
+      }
+  }
+  
+  @media (min-width : 1705px ) {
+  
+      #climb div p {
+          text-align: start;
+          margin-left: -14vw;
+          padding-left: 0px;
+      }
+  
+      #climb div h3 {
+          padding-top: 70px;
+      }
+  }
+  
+  /* Tabs */
+  /*  .cont1  {
+        /*border: 2px solid white;*/
+        /*<!-- border-radius: 15px;
+        margin: 2px 2px;
+        padding: 4px 4px;
+        position: absolute;
+        width: 20%;
+        color: pink;
+        top: 400px;
+        left: 50px;
+        display: inline-block;
+    } 
+    .cont h2{
+        font-size: 30px;
+        text-align: center;
+        margin: 10px 10px;
+    }
+    .imp {
+        /*border: 2px solid white;*/
+        /*<!-- border-radius: 15px;
+        margin: 2px 2px;
+        padding: 4px 4px;
+        position: absolute;
+        width: 20%;
+        color: rgb(0, 255, 225);
+        top: 400px;
+        right : 40px;
+        display: inline-block;
+    }
+    .imp h3{
+        font-size: 30px;
+        text-align: center;
+        margin: 10px 10px;
+    }
+    .form-group input{
+        font-family: 'Baloo 2', cursive;
+        text-align: center;
+        display:block;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 10px;
+        padding: 1px;
+    } 
+    
+    .container h1{
+        font-size: 30px;
+        text-align: center;
+        margin: 10px 10px;
+    }
+    .container button{
+        font-family: 'Baloo 2', cursive;
+        text-align: center;
+        display:block;
+        border: 2px solid white;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 10px;
+        padding: 1px;
+        background-color: transparent;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        cursor: pointer;
+    } */
+/* Tabs */
+/*<!-- .accordion .accordion-item div .acc-1 {
+  
+  background-image: url(./Images/p03.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -8px;
+  
+  width: 100%;
+  background-size: cover;
+}
+
+.accordion .accordion-item div .acc-2 {
+
+  background-image: url(./Images/tab-2.png) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -8px;
+  
+  width: 100%;
+  background-size: cover;
+}
+
+table.table td {
+  border-bottom-width: 0px !important;
+}
+
+table.table td h2 {
+  font-family: var(--Oswald);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: var(--text-number);
+  
+}
+
+table.table tbody{
+  padding: 10px 0;
+  font-family: var(--Lato);
+}
+
+table.table {
+  margin-top: 5vh;
+  align-items: center;
+  padding: 28px;
+  background-color: rgba(233, 236, 239, 0.86);
+}
+
+table.table-tab {
+<!-- /* margin-top: 25vh; */
+  /*<!-- align-items: center; 
+  /* padding: 28px; */
+  /*<!-- min-width: 300px;
+  max-width: 400px;
+  background-color: rgba(233, 236, 239, 0.86);
+} 
+  /* Tabs */
+
+
+  .nav-tabs {
+      border: none !important;
+  }
+  
+  .tabs-container {
+      background-color: var(--text-number);
+      padding: 1px 0;
+  }
+  
+  .tabs-container a {
+      background-color: var(--text-number) !important;
+      color:  #b0b4be !important;
+      font-family: var(--Bebas);
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      font-size: 1.2rem;
+      border: none !important;
+  }
+  
+  .tabs-container a .nav-1 {
+      background-color: var(--text-number) !important;
+      color:  #b0b4be !important;
+      font-family: var(--Bebas);
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      font-size: 1.2rem;
+      border: none !important;
+  }
+  
+  
+  
+  .tabs-container a:hover, .tabs-container a:active{
+      background-color: #b0b4be !important;
+      color: var(--text-number) !important;
+      box-shadow: none;
+      font-family: var(--Bebas);
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      font-size: 1.2rem;
+      border: none;
+      text-decoration: underline; 
+  }
+  
+  
+
+  
+  
+  /* Accordion */
+  .accordion-button.collapsed {
+      background-color: var(--text-number);
+      color:  #b0b4be;
+      font-family: var(--Bebas);
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      font-size: 1.2rem
+  }
+  
+  .accordion-button::after {
+      background-color: #b0b4be;
+      padding: 1px;
+      border-radius: 8px;
+  }
+  
+  
+  .accordion-button:not(.collapsed)::after {
+      /* background-color: var(--text-number); */
+      padding: 1px;
+      border-radius: 8px;
+      background-image: url(.//Icons/arrow-down.svg);
+      color: var(--white);
+      transform: rotate(-180deg);
+      
+  }
+  
+  
+  .accordion-button:hover, .accordion-button:active , .accordion-button:not(.collapsed){
+     background-color: #b0b4be;
+     color: var(--text-number);
+     box-shadow: none;
+     font-family: var(--Bebas);
+     font-weight: 600;
+     letter-spacing: 0.5px;
+     font-size: 1.2rem;
+     text-decoration: underline; 
+  }
+  
+  .accordion .accordion-item div .acc-1 {
+  
+      background-image: url(./Images/p03.jpg) ;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-top: -8px;
+      
+      width: 100%;
+      background-size: cover;
+  }
+  
+  .accordion .accordion-item div .acc-2 {
+  
+      background-image: url(./Images/tab-2.png) ;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-top: -8px;
+      
+      width: 100%;
+      background-size: cover;
+  }
+  
+  table.table td {
+      border-bottom-width: 0px !important;
+  }
+  
+  table.table td h2 {
+      font-family: var(--Oswald);
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 2rem;
+      color: var(--text-number);
+      
+  }
+  
+  table.table tbody{
+      padding: 10px 0;
+      font-family: var(--Lato);
+  }
+  
+  table.table {
+      margin-top: 5vh;
+      align-items: center;
+      padding: 28px;
+      background-color: rgba(233, 236, 239, 0.86);
+  }
+  
+  table.table-tab {
+  /* margin-top: 25vh; */
+      align-items: center;
+      /* padding: 28px; */
+      min-width: 300px;
+      max-width: 400px;
+      background-color: rgba(233, 236, 239, 0.86);
+  }
+  
+  
+  
+  
+  
+  footer {
+      padding: 2px 0px;
+      background-color: var(--blue-mountains-hero);
+  }
+  
+  footer div h5 {
+      font-family: var(--Lato);
+      font-weight: 700;
+      font-style: italic;
+      color: #63769d;
+      font-size: 0.78rem;
+      align-items: center;
+      padding-top: 15px;
+  }
+  </style>
+
+  <!--- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOS ANGELES MOUNTAINS</title>
+  
+  <style>
+    .logo {
+        margin-left: 15%;
+      display: flex;
+      align-items: center;
+    }
+    .col-6  ps-1 {
+      display: flex;
+      align-items: center;
+    }
+
+
+    .logo img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+
+
+    footer {
+    padding: 2px 0px;
+    background-color: var(--blue-mountains-hero);
+}
+
+footer div h5 {
+    font-family: var(--Lato);
+    font-weight: 700;
+    font-style: italic;
+    color: #63769d;
+    font-size: 0.78rem;
+    align-items: center;
+    padding-top: 15px;
+}
+
+    .navigation {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-left: 10px;
+    }
+
+    .navigation-icon {
+      font-size: 24px;
+      margin-right: 20px;
+    }
+
+    .page-heading {
+      text-align: center;
+    }
+
+    .mountain-image {
+      height: 600px; /* Adjust the height as needed */
+      background-image: url("im4.jpeg"); /* Replace with your mountain image */
+      background-position: center;
+      background-size: cover;
+    }
+
+    .scrollable-images {
+      display: flex;
+      overflow-x: auto;
+      justify-content: flex-start;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .scrollable-images img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .page-heading{
+        padding-top: 150px;
+        justify-content: center;
+        font-size: 50px;
+        font-style: italic;
+        color: rgb(236, 22, 136);
+
+    }<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOS ANGELES MOUNTAINS</title>
+  
+  <style>
+    .logo {
+        margin-left: 15%;
+      display: flex;
+      align-items: center;
+    }
+    .col-6  ps-1 {
+      display: flex;
+      align-items: center;
+    }
+
+
+    .logo img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+
+
+    footer {
+    padding: 2px 0px;
+    background-color: var(--blue-mountains-hero);
+}
+
+footer div h5 {
+    font-family: var(--Lato);
+    font-weight: 700;
+    font-style: italic;
+    color: #63769d;
+    font-size: 0.78rem;
+    align-items: center;
+    padding-top: 15px;
+}
+
+    .navigation {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-left: 10px;
+    }
+
+    .navigation-icon {
+      font-size: 24px;
+      margin-right: 20px;
+    }
+
+    .page-heading {
+      text-align: center;
+    }
+
+    .mountain-image {
+      height: 600px; /* Adjust the height as needed */
+      background-image: url("im4.jpeg"); /* Replace with your mountain image */
+      background-position: center;
+      background-size: cover;
+    }
+
+    .scrollable-images {
+      display: flex;
+      overflow-x: auto;
+      justify-content: flex-start;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .scrollable-images img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .page-heading{
+        padding-top: 150px;
+        justify-content: center;
+        font-size: 50px;
+        font-style: italic;
+        color: rgb(236, 22, 136);-->
+
+
+  <body>    
+     <section id="Hero" class="Hero container-fluid p-0 m-0 ">
+        <div class="container align-items-stretch ps-sm-5 pe-sm-5">         
+          <div class="row p-2 ">
+                <div class="col-6 col-md-5 offset-md-1  ps-1">
+                   <a href="#"><img src="./assets/Images/Logo.png" class="img " alt="logo"> </a>
+                </div>
+                
+                <div class="col-6 col-md-5 offset-md-1  text-end">
+                    <nav class="nav-container">
+                        <ul class=" ">
+                            <li class=""> <a  href="#history"> 1. History </a></li>
+                            <li class="it"><a  href="#climb">2. Team </a></li>                
+                        </ul>
+                        </nav>
+                </div>
+          </div>
+            
+      </section> 
+
+    
+<!--- End Hero Section-->
+
+    
+<!-- - Sticky Navbar -->
+
+<section id="nav-sticky" class=" sticky-top ">
+
+  <div class="container align-items-stretch ps-5 pe-5">         
+    <div class="row p-2 mt-3 mb-3 ">
+
+          <div class="col-6  ps-1">
+           <a href="#">   <img src="./assets/Images/Logo-letters.png" class="img" alt="logo"> </a>
+          </div>
+          
+           <div class="col-6  text-end">
+             
+                  <ul class=" ">
+                      <li class=""> <a href="#history">  1. History </a></li>
+                      <li class=""><a href="#climb">2. Team </a></li>                
+                  </ul>
+              
+          </div> 
+    </div>
+    </div>
+      
+</section>
+<!--- Sticky Navbar-->
+
+
+<!-- Scroll to Top Button-->
+<div><a class="gotopbtn" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-short icon-up" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+</svg>
+</a></div>
+<!--End Scroll to Top -->
+
+
+<!--01 History -->
+<section id="history">
+  <div class="container ps-md-5 pe-md-5">
+    <div class="row">
+      <div class="col-10 offset-md-2 offset-1 text-start"><h3> <span class="before">01.</span> <span class="after">History</span></h3></div>
+    </div>
+    <div class="row">
+      <div class="col-10 offset-md-2 offset-2  text-center">
+      <p > Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quas saepe nobis itaque cumque enim, molestiae aut unde recusandae perferendis at veniam ex ipsam, accusantium quisquam maxime nesciunt eum aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, autem. Itaque magnam quaerat voluptatem nesciunt placeat autem, consequatur.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!--02 Team -->
+<!-- body{
+  font-family: 'Baloo 2', cursive;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-image: url("img/10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.left{
+  display: inline-block;
+  
+  position: absolute;
+  left: 60px;
+  top: 20;
+}
+.left img{
+  width: 150px;
+  height: 100px;
+  /*border: 2px solid grey;*/
+  
+  
+}
+.left div{
+  line-height: 19px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.mid{
+  display: block; 
+  width: 36%;
+  margin: 20px auto;
+ /* border: 2px solid green;*/
+}
+.right{
+  position: absolute;
+  right: 34px;
+  top: 20px;
+  display: inline-block;
+  
+}
+.navbar{
+  display: inline-block;
+}
+.navbar li{
+  display: inline-block;
+  padding: 25px 18px;
+  
+}
+.navbar li a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+.navbar li a:hover, .navbar li a.active{
+  text-decoration: underline;
+  color: grey;
+  font-size: 17px;
+}
+.btn{
+  font-family: 'Baloo 2', cursive;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid grey;
+  border-radius: 10px;
+}  
+.btn:hover{
+  background-color: grey;
+  color: white;
+  border: 2px solid white;
+} 
+.container{
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 2px 2px;
+  padding: 4px 4px;
+  position: absolute;
+  width: 30%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: gold;
+} 
+.cont1  {
+  /*border: 2px solid white;*/
+  border-radius: 15px;
+  margin: 2px 2px;
+  padding: 4px 4px;
+  position: absolute;
+  width: 20%;
+  color: pink;
+  top: 400px;
+  left: 50px;
+  display: inline-block;
+} -->
+<!-- <div class="left">
+  <img src="img/11.jpg" alt="">
+  <div> <h1> <span class="before">01.</span> <span class="after">History</span></h1></div>
+</div>
+<div class="mid">
+  <p>Lorem ipsum dolor sit
+    amet consectetu
+    adipisicing elit.
+    Quisquam, quod
+    voluptatibus
+    voluptatum
+    voluptates
+    voluptatem
+    voluptas
+    voluptatum
+    voluptates
+    voluptatem
+    voluptas
+    voluptatum
+
+  </p>
+</div>
+<div class="right">
+  <ul class="navbar">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>
+<div class="cont1">
+  <h1> <span class="before">01.</span> <span class="after">History</span></h1>
+  <p>Lorem ipsum dolor sit
+    amet consectetu
+    adipisicing elit.
+    Quisquam, quod
+    voluptatibus
+    voluptatum
+    voluptates
+    voluptatem
+    voluptas
+    voluptatum
+    voluptates
+    voluptatem
+    voluptas
+    voluptatum
+
+  </p>  
+</div> -->
+<!--
+<div class="container">
+  <h1> <span class="before">01.</span> <span class="after">History</span></h1>
+  <p>Lorem ipsum dolor sit
+    amet consectetu
+    adipisicing elit.
+    Quisquam, quod
+    voluptatibus
+    voluptatum
+    voluptates
+    voluptatem
+    voluptas
+    voluptatum
+    voluptates
+    voluptatem
+    voluptas
+    voluptatum
+
+  </p>
+</div> -->
+<!--
+<div class="container">
+  <h1> <span class="before">01.</span> <span class="after">History</span></h1>
+  <p>Lorem ipsum dolor sit
+    amet consectetu
+    adipisicing elit.
+    Quisquam, quod
+    voluptatibus
+    voluptatum
+    voluptates
+    voluptatem
+    voluptas
+    voluptatum
+    voluptates
+    voluptatem
+    voluptas
+    voluptatum
+
+  </p>
+</div> -->
+  <!-- Slides-->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+
+    </div>
+    <div class="carousel-inner slide-container">
+      <div class="carousel-item active w-100 ">
+          <div class="container">
+            <div class="row slide">
+              <div class="col d-inline-block text-center g-2">
+                <img class="mt-2 img-car" src="./assets/Images/p02.jpg" alt="image 1"> 
+                <img class="mt-2 img-car" src="./assets/Images/p05.jpg" alt="image 2">
+                <img class="mt-2 img-car" src="./assets/Images/p02.jpg" alt="image 3">
+                <img class="mt-2 img-car" src="./assets/Images/p05.jpg" alt="image 4">
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <!-- /* footer div h5 {
+        font-family: var(--Lato);
+        font-weight: 700;
+        font-style: italic;
+        color: #63769d;
+        font-size: 0.78rem;
+        align-items: center;
+        padding-top: 15px;
+    }
+    
+        .navigation {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          margin-left: 10px;
+        }
+    
+        .navigation-icon {
+          font-size: 24px;
+          margin-right: 20px;
+        }
+    
+        .page-heading {
+          text-align: center;
+        }
+    
+        .mountain-image {
+          height: 600px; /* Adjust the height as needed */
+          /* background-image: url("im4.jpeg"); /* Replace with your mountain image */
+          /* background-position: center;
+          background-size: cover;
+        }  */
+    
+        /* .scrollable-images { */
+          /* display: flex;
+          overflow-x: auto;
+          justify-content: flex-start;
+          gap: 10px;
+          padding: 10px;
+        } */
+    
+        /* .scrollable-images img {
+          width: 200px;
+          height: 150px;
+          object-fit: cover;
+        }
+        .page-heading{
+            padding-top: 150px;
+            justify-content: center;
+            font-size: 50px;
+            font-style: italic;
+            color: rgb(236, 22, 136);
+    
+        }
+        .scrollable-images{
+            justify-content: center;
+        } */
+    
+    
+        /* .nav-tabs {
+            background-color: rgb(30, 29, 29);
+            color: aliceblue;
+            padding-left: 17%;
+            
+        border: none !important;
+    }
+    
+    .tabs-container {
+        background-color: var(--text-number);
+        padding: 1px 0;
+    } */
+    
+    /* .tabs-container a {
+        /* background-color: var(--text-number) !important; */
+        /* color:  #2b4995 !important;
+        font-family: var(--Bebas);
+        font-weight: 600;
+       
+        letter-spacing: 0.5px;
+        font-size: 1.2rem;
+       
+        background-color: rgb(123, 118, 118);
+        
+        border: none !important;
+    } */ 
+    
+    /* .tabs-container a .nav-1 {
+        background-color: var(--text-number) !important;
+        color:  #0b0d12 !important;
+        font-family: var(--Bebas);
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-size: 1.2rem;
+        margin-right: 10px;
+        padding-inline-end: 5px;
+        border: none !important;
+    }
+    
+    
+    
+    .tabs-container a:hover, .tabs-container a:active{
+        background-color: #b0b4be !important;
+        color: var(--text-number) !important;
+        box-shadow: none;
+        font-family: var(--Bebas);
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-size: 1.2rem;
+        border: none;  */
+        /* text-decoration: underline;  */
+    /* } */
+    
+    
+    /* .tabs {
+        background-image: url(./Images/tab-1.png) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        margin-top: -8px;
+        background-size: cover;
+        height: 80vh;
+    } */ -->
+
+
+
+
+      <div class="carousel-item w-100">
+        <div class="container">
+          <div class="row slide">
+            <div class="col d-inline-block text-center g-2">
+              <img class="mt-2 img-car" src="./assets/Images/p05.jpg" alt="image 1"> 
+              <img class="mt-2 img-car" src="./assets/Images/p02.jpg" alt="image 2">
+              <img class="mt-2 img-car"  src="./assets/Images/p05.jpg" alt="image 3">
+              <img class="mt-2 img-car" src="./assets/Images/p02.jpg" alt="image 4">
+            </div>
+          </div>
+        </div>
+    </div>
+      <div class="carousel-item w-100">
+          <div class="container">
+            <div class="row slide">
+              <div class="col d-inline-block text-center g-2">
+                <img class="mt-2 img-car" src="./assets/Images/p05.jpg" alt="image 1"> 
+                <img class="mt-2 img-car" src="./assets/Images/p02.jpg" alt="image 2">
+                <img class="mt-2 img-car"  src="./assets/Images/p05.jpg" alt="image 3">
+                <img class="mt-2 img-car" src="./assets/Images/p02.jpg" alt="image 4">
+              </div>
+            </div>
+          </div> 
+      </div>
+      <div class="carousel-item w-100">
+        <div class="container">
+          <div class="row slide">
+            <div class="col d-inline-block text-center g-2">
+              <img class="mt-2 img-car" src="./assets/Images/p05.jpg" alt="image 1"> 
+              <img class="mt-2 img-car" src="./assets/Images/p02.jpg" alt="image 2">
+              <img class="mt-2 img-car"  src="./assets/Images/p05.jpg" alt="image 3">
+              <img class="mt-2 img-car" src="./assets//Images/p02.jpg" alt=" image 4">
+            </div>
+          </div>
+        </div>
+    </div>
+      </div> 
+    </div>
+    <!-- End slides-->
+  <!-- 02 Climb -->
+  <section id="climb" class="container-fluid">
+    <div class="container container ps-md-5 pe-md-5">
+    <div class="row">
+      <div class="col-10 col-md-4 offset-md-2 offset-1 text-start"><h3> <span class="before">02.</span> <span class="after">Climb</span></h3></div>
+      <div class="col-10 col-md-4 offset-md-2 offset-2  text-start">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, commodi blanditiis! Odit quidem quas ratione ipsa non voluptatum aut molestiae tempora nam commodi eveniet illo, exercitationem, unde libero aperiam quasi!
+        </p>
+      </div>  
+      </div>
+    </div>
+  </section>
+  <!--End Climb-->
+  <!-- Tabs-->
+  
+  <nav class="container-fluid tabs-container d-none d-sm-block" id="Mountains">
+      
+    <div class="nav nav-tabs container align-items-stretch ps-md-5 pe-md-5 " id="nav-tab" role="tablist">
+      <a class="nav-link nav-1 active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-tabContent" type="button" role="tab" aria-controls="nav-home" aria-selected="true" >MOUNTAIN 1</a>
+      <a class="nav-link nav-2" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">MOUNTAIN 2</a>
+      </div>
+  
+    </nav>
+  
+
+  <div class=" container-fluid p-0 tabs">
+
+
+  <div class="tab-content d-none d-sm-block" id="nav-tabContent">
+
+
+    <div class="tab-pane  tabs-1 container  fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+      <div class="container-fluid text-center align-items-center tab-1">
+        <h1></h1>
+        <div class="container p-3  align-items-center">
+          <table class="table-tab">
+            
+            <tbody>
+              
+              <tr class="pt-3">
+                <td class=" pb-0 pt-3 ps-1"> <h2 class="pb-0">SCHEDULE</h2></td>
+              </tr>
+
+              <tr>
+                <td class="pt-0">25 Nov 2016</td>
+                <td class="pt-0 pe-3">Vestibulum viverra</td> 
+              </tr>
+
+              <tr>
+                <td class="pt-0">28 Nov 2016</td>
+                <td class="pt-0 pe-3">Vestibulum viverra</td> 
+              </tr>
+
+              <tr class="pt-1">
+                <td class="p-0">18 Dec 2016</td>
+                <td class="p-0 pe-3">Vestibulum viverra</td> 
+              </tr>
+
+              <tr class="pt-1 pb-3">
+                <td class="p-0 pb-2"> 7 Jan 2017</td>
+                <td class="p-0 pe-3 pb-2">Vestibulum viverra</td> 
+              </tr>
+              
+            </tbody>
+          </table>
+
+          </div>
+      </div>
+    </div>
+
+
+    <div class="tab-pane tabs-2 fade table-secondary" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+    <div class="container-fluid text-center align-items-center tab-1">
+            <h1></h1>
+            <div class="container p-3  align-items-center">
+              <table class="table-tab">
+                
+                <tbody>
+                  
+                  <tr class="pt-3">
+                    <td class=" pb-0 pt-3 ps-1"> <h2 class="pb-0">SCHEDULE</h2></td>
+                  </tr>
+  
+                  <tr>
+                    <td class="pt-0">25 Nov 2016</td>
+                    <td class="pt-0 pe-3">Vestibulum viverra</td> 
+                  </tr>
+  
+                  <tr>
+                    <td class="pt-0">28 Nov 2016</td>
+                    <td class="pt-0 pe-3">Vestibulum viverra</td> 
+                  </tr>
+  
+                  <tr class="pt-1">
+                    <td class="p-0">18 Dec 2016</td>
+                    <td class="p-0 pe-3">Vestibulum viverra</td> 
+                  </tr>
+  
+                  <tr class="pt-1 pb-3">
+                    <td class="p-0"> 7 Jan 2017</td>
+                    <td class="p-0 pe-3 pb-3 ">Vestibulum viverra</td> 
+                  </tr>
+                  
+                </tbody>
+              </table>
+  
+              </div>
+          </div>
+    </div>
+   </div>
+</div>
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitnessPoint</title>
+</head><link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+   /*CSS for the body*/
+body{
+    background-color: #f5f5f5;
+    font-family: 'Baloo 2', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitnessPoint</title>
+</head><link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+   /*CSS for the body*/
+body{
+    background-color: #f5f5f5;
+    font-family: 'Baloo 2', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} --><!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitnessPoint</title>
+</head><link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+   /*CSS for the body*/
+body{
+    background-color: #f5f5f5;
+    font-family: 'Baloo 2', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} --><!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitnessPoint</title>
+</head><link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+   /*CSS for the body*/
+body{
+    background-color: #f5f5f5;
+    font-family: 'Baloo 2', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} --><!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitnessPoint</title>
+</head><link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+   /*CSS for the body*/
+body{
+    background-color: #f5f5f5;
+    font-family: 'Baloo 2', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} -->
+
+<!-- End Tabs-->
+
+  <!--Accordion-->
+  <div class="accordion d-sm-none" id="mountains">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          MOUNTAIN 1
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapsed show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body p-0">
+          
+          <div class="container-fluid text-center align-items-center acc-1">
+            <h1></h1>
+            <div class="container p-3 align-items-center">
+              <table class="table">
+                
+                <tbody>
+                  
+                  <tr class="pt-3">
+                    <td class="pb-0 pt-3"> <h2 class="pb-0">SCHEDULE</h2></td>
+                  </tr>
+  
+                  <tr>
+                    <td class="pt-0">25 Nov 2016</td>
+                    <td class="pt-0">Vestibulum viverra</td> 
+                  </tr>
+  
+                  <tr>
+                    <td class="pt-0">28 Nov 2016</td>
+                    <td class="pt-0">Vestibulum viverra</td> 
+                  </tr>
+  
+                  <tr class="pt-1">
+                    <td class="p-0">18 Dec 2016</td>
+                    <td class="p-0">Vestibulum viverra</td> 
+                  </tr>
+  
+                  <tr class="pt-1 pb-3">
+                    <td class="p-0"> 7 Jan 2017</td>
+                    <td class="p-0 pb-3 ">Vestibulum viverra</td> 
+                  </tr>
+                  
+                </tbody>
+              </table>
+  
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          MOUNTAIN 2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body p-0">
+           <div class="container-fluid text-center align-items-center acc-2">
+            <h1></h1>
+            <div class="container p-3 align-items-center">
+              <table class="table">
+                
+                <tbody>
+                  
+                  <tr class="pt-3">
+                    <td class="pb-0 pt-3"> <h2 class="pb-0">SCHEDULE</h2></td>
+                  </tr>
+  
+                  <tr>
+                    <td class="pt-0">25 Nov 2016</td>
+                    <td class="pt-0">Vestibulum viverra</td> 
+                  </tr>
+  
+                  <tr>
+                    <td class="pt-0">28 Nov 2016</td>
+                    <td class="pt-0">Vestibulum viverra</td> 
+                  </tr>
+  
+                  <tr class="pt-1">
+                    <td class="p-0">18 Dec 2016</td>
+                    <td class="p-0">Vestibulum viverra</td> 
+                  </tr>
+  
+                  <tr class="pt-1 pb-3">
+                    <td class="p-0"> 7 Jan 2017</td>
+                    <td class="p-0 pb-3 ">Vestibulum viverra</td> 
+                  </tr>
+                  
+                </tbody>
+              </table>
+  
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--End Accordion-->
+
+  <!--- Footer-->
+  <footer id="footer" class="">
+
+    <div class="container align-items-stretch ps-md-5 pe-md-5">         
+      <div class="row p-2 mt-3 mb-3 ">
+  
+            <div class=" col-6 col-md-5 offset-md-1 ps-1">
+                <img src="./assets/Images/Logo-footer.png" class="img ms-md-5" alt="logo">
+            </div>
+            
+             <div class=" col-6 col-md-5 offset-md-1 text-end align-items-center">
+              <h5>ALL SET TO GO IN YOUR WAY</h5>
+            </div> 
+      </div>
+      </div>
+        
+  </footer>
+
+  
+
+
+
+
+ 
+<!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
+
+<!--- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOS ANGELES MOUNTAINS</title>
+  
+  <style>
+    .logo {
+        margin-left: 15%;
+      display: flex;
+      align-items: center;
+    }
+    .col-6  ps-1 {
+      display: flex;
+      align-items: center;
+    }
+
+
+    .logo img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+
+
+    footer {
+    padding: 2px 0px;
+    background-color: var(--blue-mountains-hero);
+}
+
+footer div h5 {
+    font-family: var(--Lato);
+    font-weight: 700;
+    font-style: italic;
+    color: #63769d;
+    font-size: 0.78rem;
+    align-items: center;
+    padding-top: 15px;
+}
+
+    .navigation {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-left: 10px;
+    }
+
+    .navigation-icon {
+      font-size: 24px;
+      margin-right: 20px;
+    }
+
+    .page-heading {
+      text-align: center;
+    }
+
+    .mountain-image {
+      height: 600px; /* Adjust the height as needed */
+      background-image: url("im4.jpeg"); /* Replace with your mountain image */
+      background-position: center;
+      background-size: cover;
+    }
+
+    .scrollable-images {
+      display: flex;
+      overflow-x: auto;
+      justify-content: flex-start;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .scrollable-images img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .page-heading{
+        padding-top: 150px;
+        justify-content: center;
+        font-size: 50px;
+        font-style: italic;
+        color: rgb(236, 22, 136);
+
+    }<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOS ANGELES MOUNTAINS</title>
+  
+  <style>
+    .logo {
+        margin-left: 15%;
+      display: flex;
+      align-items: center;
+    }
+    .col-6  ps-1 {
+      display: flex;
+      align-items: center;
+    }
+
+
+    .logo img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+
+
+    footer {
+    padding: 2px 0px;
+    background-color: var(--blue-mountains-hero);
+}
+
+footer div h5 {
+    font-family: var(--Lato);
+    font-weight: 700;
+    font-style: italic;
+    color: #63769d;
+    font-size: 0.78rem;
+    align-items: center;
+    padding-top: 15px;
+}
+
+    .navigation {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-left: 10px;
+    }
+
+    .navigation-icon {
+      font-size: 24px;
+      margin-right: 20px;
+    }
+
+    .page-heading {
+      text-align: center;
+    }
+
+    .mountain-image {
+      height: 600px; /* Adjust the height as needed */
+      background-image: url("im4.jpeg"); /* Replace with your mountain image */
+      background-position: center;
+      background-size: cover;
+    }
+
+    .scrollable-images {
+      display: flex;
+      overflow-x: auto;
+      justify-content: flex-start;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .scrollable-images img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .page-heading{
+        padding-top: 150px;
+        justify-content: center;
+        font-size: 50px;
+        font-style: italic;
+        color: rgb(236, 22, 136);
+
+    
+
+    
